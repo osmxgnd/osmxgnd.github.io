@@ -12,16 +12,10 @@
     <div id="app">
         <input type="text" value="" v-model="test"></input>
         <p>{{ test }}</p>
+        <input type="button" value="click" @click="onclick">
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script>
-        var app = new Vue({
-            el: "#app",
-            data: {
-                test: "hello github pages!"
-            }
-        });
-    </script>
+    <script src="js/html.js"></script>
 </body>
 
 </html>
